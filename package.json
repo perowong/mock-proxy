@@ -1,0 +1,28 @@
+{
+  "name": "mock-proxy",
+  "version": "1.0.0",
+  "description": "A tiny mock data and http proxy service for developer",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run mock:dev",
+    "mock:dev": "cross-env NODE_ENV=development nodemon ./server/app --watch data --watch server",
+    "mock:prod": "cross-env NODE_ENV=production nodemon ./server/app --watch data --watch server"
+  },
+  "keywords": [
+    "mock",
+    "proxy",
+    "service",
+    "develop"
+  ],
+  "author": "Burning <ynwangpeng@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mockjs": "^1.0.1-beta3",
+    "express-http-proxy": "1.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.7"
+  }
+}

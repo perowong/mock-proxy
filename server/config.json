@@ -1,0 +1,5 @@
+{
+  "PORT"        : 9100,
+  "TEST_REFERER": "http://test.demo.com",
+  "PROD_REFERER": "http://prod.demo.com"
+}
