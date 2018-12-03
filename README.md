@@ -19,7 +19,7 @@ npm start
 
 path: ./configure/config.json
 
-```
+```js
 {
   "useMock"     : true, // 开发时是否使用mock数据。true的时候，如果请求以data API里key为endpoint的接口，则使用mock数据，否则使用后端接口实际数据。false则统一使用后端接口实际数据。
 
