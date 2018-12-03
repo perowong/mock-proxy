@@ -1,7 +1,7 @@
 const express        = require('express'),
       proxy          = require('express-http-proxy'),
       mockMiddleware = require('./middleware/mock'),
-      appConfig      = require('./config');
+      appConfig      = require('../configure/config.json');
 
 const app = express();
 
