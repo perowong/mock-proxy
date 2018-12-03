@@ -4,7 +4,7 @@
 
 ## How to start
 
-在代码目录下执行：
+在代码目录下（也可以是其他任意目录）执行：
 
 ```
 git clone https://github.com/TinyDurk/mock-proxy
@@ -72,7 +72,7 @@ path: ./configure/config.json
 
 ## mockjs
 
-mockjs 数据生成器工具已经造好了很多数据生产规则的轮子了，直接运用即可。
+mockjs 数据生成器工具已经造好了很多数据生成规则的轮子了，直接运用即可。
 
 具体的数据生成器Mockjs的用法参看如下链接，主要弄清楚以下两点基本就可以覆盖所有需求了。
 - [语法规范](https://github.com/nuysoft/Mock/wiki/Syntax-Specification)
