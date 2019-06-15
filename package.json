@@ -1,6 +1,6 @@
 {
-  "name": "mock-proxy",
-  "version": "1.0.0",
+  "name": "td-mock-proxy",
+  "version": "1.0.1",
   "description": "A tiny mock data and http proxy service for developer",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "develop"
   ],
   "author": "Burning <ynwangpeng@gmail.com>",
+  "git repository": "https://github.com/TinyDurk/mock-proxy",
   "license": "",
   "dependencies": {
     "express": "^4.16.4",
