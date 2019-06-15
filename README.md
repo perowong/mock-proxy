@@ -7,10 +7,7 @@
 在代码目录下（也可以是其他任意目录）执行：
 
 ```
-git clone https://github.com/TinyDurk/mock-proxy
-cd mock-proxy
-npm i
-npm start
+yarn add td-mock-proxy
 ```
 
 拷贝mock目录至工作目录，即可启动使用。
