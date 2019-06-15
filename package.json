@@ -15,7 +15,10 @@
     "develop"
   ],
   "author": "Burning <ynwangpeng@gmail.com>",
-  "git repository": "https://github.com/TinyDurk/mock-proxy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TinyDurk/mock-proxy"
+  },
   "license": "",
   "dependencies": {
     "express": "^4.16.4",
