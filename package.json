@@ -15,7 +15,7 @@
     "develop"
   ],
   "author": "Burning <ynwangpeng@gmail.com>",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "express": "^4.16.4",
     "mockjs": "^1.0.1-beta3",
