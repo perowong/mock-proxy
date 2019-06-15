@@ -13,11 +13,11 @@ npm i
 npm start
 ```
 
-即可启动使用。
+拷贝mock目录至工作目录，即可启动使用。
 
 ## Configure
 
-path: ./configure/config.json
+path: ./mock/conf.json
 
 ```js
 {
@@ -31,6 +31,8 @@ path: ./configure/config.json
 ```
 
 ## How to extend and use
+
+./mock/data
 
 项目中实际需要高频使用的代码目录：
 
