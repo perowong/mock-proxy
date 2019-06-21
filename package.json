@@ -1,6 +1,6 @@
 {
   "name": "td-mock-proxy",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A tiny mock data and http proxy service for developer",
   "main": "index.js",
   "scripts": {
