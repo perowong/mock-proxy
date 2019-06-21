@@ -10,7 +10,10 @@
 yarn add td-mock-proxy
 ```
 
-拷贝mock目录至工作目录，即可启动使用。
+- 拷贝mock目录至工作目录，即可启动使用。
+- 启动：
+  - 测试环境：```td-mock-proxy start test```
+  - 生产环境：```td-mock-proxy start prod```
 
 ## Configure
 
